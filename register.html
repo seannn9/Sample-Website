@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="login_html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="login_body">
     <div class="navbar">
         <a href="./homepage.html">Home</a>
         <a href="./services.html">Services</a>
@@ -16,6 +16,23 @@
             <a href="./login.html">Login</a>
             <a class="active" href="./register.html">Register</a>
         </div>
+    </div>
+
+    <div class="form_container">
+        <form class="login_form" id="login_form">
+            <fieldset>
+                <legend class="signin">Create An Account</legend>
+
+                <input type="email" id="email" name="email", placeholder="Email", required>
+    
+                <input type="password" id="password" name="password", placeholder="Password", required>
+
+            </fieldset>
+            <button type="submit">Sign-Up</button>
+            <div class="signup_link">
+                <p>Already have an account? <a href="./login.html">Log In</a></p>
+            </div>
+        </form>
     </div>
 </body>
 </html>
