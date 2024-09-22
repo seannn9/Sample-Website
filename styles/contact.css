@@ -21,6 +21,12 @@
     background-color: #e0e0e0;
 }
 
+.contact-details {
+    padding: 10px;
+    background-color: #3c3c3c;
+    border-radius: 15px;
+}
+
 .contact-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url("../images/contact.jpg");
