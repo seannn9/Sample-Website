@@ -1,14 +1,14 @@
-/* Global Styling */
+/* ! Global Styling */
 body {
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
 }
 
 .background_container {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.40), 
-        rgba(0, 0, 0, 0.40)
-    ), url("images/archi2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("images/archi2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -73,7 +73,8 @@ body {
     padding: 16px;
     font-size: 17px;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 }
 
 .navbar .login {
@@ -200,115 +201,4 @@ body {
     height: 75px;
     background-color: #333;
     color: #f2f2f2;
-}
-
-
-/* Login Page */
-.login_body, .login_html {
-    height: 100%;
-    background-image: url('images/archi3.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.form_container {
-    position: absolute;
-    border-radius: 25px;
-    background-color: #694cc0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.30);
-    padding: 150px;
-    max-width: 400px;
-    text-align: center;
-    z-index: 2;
-    top: 50vh;
-    left: 50%;
-    translate: -50% -50%;
-}
-
-fieldset {
-    border: 0px;
-    padding: 15px;
-    margin:auto;
-    width: 400px;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-input {
-    width: 100%;
-    height: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: large;
-    margin-bottom: 40px;
-    display: block;
-    border: none;
-    border-radius: 25px;
-    box-sizing: border-box;
-    box-shadow: 0px 5px 8px 3px black;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-input::focus {
-    outline: none;
-}
-
-input[type="email"] {
-    background-image: url("images/email.png");
-    background-position: 365px;
-    background-repeat: no-repeat;
-    background-size: 20px;
-}
-
-input[type="password"] {
-    background-image: url("images/password.png");
-    background-position: 365px;
-    background-repeat: no-repeat;
-    background-size: 20px;
-}
-
-.signin {
-    margin: 0 auto;
-    margin-bottom: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 35px;
-    color:white;
-    font-weight: bold;
-}
-
-button[type="submit"] {
-    position:relative;
-    top: 140px;
-    padding: 16px 32px;
-    font-size: 16px;
-    border: 1px solid;
-    border-radius: 25px;
-}
-
-button[type="submit"]:hover {
-    background-color: rgb(50, 69, 92);
-    color: white;
-}
-
-.signup_link {
-    position: relative;
-    top: 150px;
-    text-align: center;
-}
-
-.signup_link p {
-    font-size: 16px;
-    color: black;
-}
-
-.signup_link a {
-    color: black;
-    text-decoration: underline;
-}
-
-.signup_link a:hover {
-    color: #ddd;
 }
